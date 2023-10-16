@@ -3,14 +3,14 @@ import { View, Text, Pressable, StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    width: '90%',
+    width: '100%',
     alignSelf: 'center'
   },
   button: {
+    height: 50,
     padding: 10,
-    height: 40,
     width: '100%',
-    borderRadius: 20,
+    borderRadius: 32,
     backgroundColor: 'red',
     alignItems: 'center',
     justifyContent: 'center',
